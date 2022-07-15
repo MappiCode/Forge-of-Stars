@@ -116,13 +116,12 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape:
-      - - {x: 2, y: -6}
-        - {x: 2, y: -9}
-        - {x: 4, y: -10}
-        - {x: 8, y: -10}
-        - {x: 16, y: 0}
-        - {x: 16, y: 6}
-        - {x: 14, y: 6}
+      - - {x: -3, y: 11}
+        - {x: -3, y: -9}
+        - {x: 1, y: -9}
+        - {x: 3, y: -7}
+        - {x: 3, y: 9}
+        - {x: 1, y: 11}
       tessellationDetail: 1
       bones: []
       spriteID: 530b87c7557ace74cb3ed7f7a948ea05
@@ -136,6 +135,34 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -6}
+        - {x: 2, y: -9}
+        - {x: 4, y: -10}
+        - {x: 8, y: -10}
+        - {x: 16, y: 0}
+        - {x: 16, y: 6}
+        - {x: 14, y: 6}
+      tessellationDetail: 1
+      bones: []
+      spriteID: 695356c4a8157b742875d3ebc1885421
+      internalID: -1786079278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BasicAttack1_2
+      rect:
+        serializedVersion: 2
+        x: 64
         y: 0
         width: 32
         height: 32
@@ -163,17 +190,17 @@ TextureImporter:
         - {x: 5, y: -4}
       tessellationDetail: 1
       bones: []
-      spriteID: 695356c4a8157b742875d3ebc1885421
-      internalID: -1786079278
+      spriteID: c45dedaad0e6e5344940a0ba225015dc
+      internalID: 170064215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BasicAttack1_2
+      name: BasicAttack1_3
       rect:
         serializedVersion: 2
-        x: 64
+        x: 96
         y: 0
         width: 32
         height: 32
@@ -201,34 +228,6 @@ TextureImporter:
         - {x: -5, y: 4}
       tessellationDetail: 1
       bones: []
-      spriteID: c45dedaad0e6e5344940a0ba225015dc
-      internalID: 170064215
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BasicAttack1_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 11}
-        - {x: -16, y: 2}
-        - {x: -11, y: -8}
-        - {x: -8, y: -8}
-        - {x: -6, y: -6}
-        - {x: -6, y: -3}
-        - {x: -13, y: 11}
-      tessellationDetail: 1
-      bones: []
       spriteID: ae55a1d410ee3ba4f85172f1cf16551c
       internalID: 1312966420
       vertices: []
@@ -247,7 +246,14 @@ TextureImporter:
       pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -16, y: 11}
+        - {x: -16, y: 2}
+        - {x: -11, y: -8}
+        - {x: -8, y: -8}
+        - {x: -6, y: -6}
+        - {x: -6, y: -3}
+        - {x: -13, y: 11}
       tessellationDetail: 0
       bones: []
       spriteID: c8f3e266616def845aee947fe8ca5760

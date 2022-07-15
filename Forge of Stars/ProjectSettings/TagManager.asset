@@ -38,12 +38,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: TileMap
     uniqueID: 2282342563
     locked: 0
-  - name: Player
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
     uniqueID: 1856018823
     locked: 0
